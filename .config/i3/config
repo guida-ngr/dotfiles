@@ -5,6 +5,7 @@ font pango:Open Sans 9
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
+exec --no-startup-id xset -b
 exec_always --no-startup-id picom -b
 #exec --no-startup-id pkill polybar
 #exec --no-startup-id ~/.config/polybar/launch.sh
@@ -58,9 +59,9 @@ bindsym $mod+Shift+Right move right
 # enter fullscreen mode for the focused container
 bindsym $mod+f11 fullscreen toggle
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+space floating toggle
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+space focus mode_toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+z layout stacking
 bindsym $mod+x layout tabbed
@@ -71,16 +72,17 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 # no tiling
 for_window [instance="kitty-floating"] floating enable, resize set 600 400
+for_window [class="Nitrogen"] floating enable, resize set 600 400
 
 #? functions
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 bindsym $mod+q kill
-bindsym $mod+Return exec kitty
-bindsym $mod+Shift+Return exec kitty --class "kitty-floating"
+bindsym $mod+Return exec kitty --class "kitty-floating"
 bindsym $mod+r exec --no-startup-id kitty -e nvim ~/.config
 bindsym $mod+i exec --no-startup-id kitty -e nvim ~/.config/i3/config
+bindsym $mod+w exec nitrogen
 bindsym $mod+f exec firefox
 bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+Shift+s exec flameshot gui --clipboard
