@@ -11,8 +11,8 @@ exemplo: wp nomedewallpaper
 
 o comando vai procurar esse nome em ~/Downloads e n precisa usar o .png .jpg etc
 POLYBAR
+alterar monitor
 modulo wifi voce tem que configurar para voce, DA ATENÇÃO P ISSO
-modulo audio falta adicionar as ramps (estados para cada porcentagem de audio), e por enquanto esta sem funcionar
 modulo weather precisa fazer cadastro e pegar uma chave da API (nao gostou usa outro jeito, tipo wttr.ini)
 auto start da polybar nao ta funcionando (nao sei o porque)
 PARA FUNCIONAR o modulo weather alem da chave api vc precisa baixar "jq" e "bc"
