@@ -15,7 +15,7 @@ Fastfetch stealed from: https://github.com/xerolinux/xero-layan-git/tree/main
 
 #### Polybar Issues
 [module/weather]
-how use: https://github.com/GuidoFe/weather-polybar-plugin/tree/main como configurar
+how use: https://github.com/GuidoFe/weather-polybar-plugin/tree/main
 essencial packages: "jq" and "bc"
 
 [module/wifi]
