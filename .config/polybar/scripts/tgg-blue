@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# verify if running
+if pgrep -x "blueman-manager" > /dev/null
+then
+    # kill all instances
+    killall blueman-manager
+else
+    nohup blueman-manager > /dev/null 2>&1 &
+fi
