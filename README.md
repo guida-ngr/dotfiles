@@ -10,13 +10,13 @@
 #### Disclaimer
 1. I'm new to linux and ricing, a lot of things are propably missing
 2. Picom are almost by default
-3. Polybar inspired (but intirely made by myself) by: https://www.reddit.com/r/unixporn/comments/10dyw2l/awesomewm_i_3_awesome/
-4. Fastfetch stealed from: https://github.com/xerolinux/xero-layan-git/tree/main
+3. Polybar inspired (but intirely made by myself) by: [this post](https://www.reddit.com/r/unixporn/comments/10dyw2l/awesomewm_i_3_awesome/)
+4. Fastfetch stealed from: [xerolinux](https://github.com/xerolinux/xero-layan-git/tree/main)
 
 #### Polybar Stuff
 [module/weather]
-how to use: https://github.com/GuidoFe/weather-polybar-plugin/tree/main <br/>
-essencial packages: "jq" and "bc" <br/>
+check the [official repo](https://github.com/GuidoFe/weather-polybar-plugin/tree/main) to run this module <br/>
+required packages: "jq" and "bc" <br/>
 you CAN'T edit this module itens by polybar configs, for it you have to go in weather.sh (you can just use mine) <br/>
 
 [module/wifi]
