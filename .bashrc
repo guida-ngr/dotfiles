@@ -15,7 +15,11 @@ alias sys='sudo systemctl'
 alias uncharge='adb shell dumpsys battery unplug'
 alias charge='adb shell dumpsys battery reset'
 alias d='pcolor "#e6ecd1"'
+alias d-b='pcolor "#9c47e8"'
 alias d2='pcolor "#ded1ec"'
+alias blue='pcolor "#a9ddea"'
+alias rs='pcolor "#f99aed"'
+alias red='pcolor "#f66b6b"'
 wp() {
     local file=""
     for ext in png jpeg jpg; do
