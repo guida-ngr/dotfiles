@@ -1,3 +1,10 @@
+#### Images
+[bar/main]
+
+
+[bar/main2]
+![image](https://github.com/user-attachments/assets/04d7f731-b6c5-4a3c-ab60-69c922a8a7a0)
+![image](https://github.com/user-attachments/assets/6f47b779-5628-4790-8eee-8d5076c3f3f8)
 
 #### Disclaimer
 I'm new to linux and ricing, a lot of things are propably missing
