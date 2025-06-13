@@ -14,7 +14,7 @@
 4. Fastfetch stealed from: https://github.com/xerolinux/xero-layan-git/tree/main
 
 #### Polybar Stuff
-[module/weather]
+[module/weather] <br/>
 how use: https://github.com/GuidoFe/weather-polybar-plugin/tree/main <br/>
 essencial packages: "jq" and "bc" <br/>
 you CAN'T edit this module itens by polybar configs, for it you have to go in weather.sh (you can just use mine) <br/>
