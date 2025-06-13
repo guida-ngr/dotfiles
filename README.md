@@ -6,13 +6,13 @@
 ![image](https://github.com/user-attachments/assets/810a3aa2-db03-442c-a42a-8e8b12570c7a)
 
 [bar/main] - with |
-![image](https://github.com/user-attachments/assets/a478779f-be21-430b-8a10-7b7ac863a458)
+![image](https://github.com/user-attachments/assets/ea5695c6-b0f4-4756-b635-d2ddb44708ba)
 
 [bar/main] - alternative modules - with |
-d2![image](https://github.com/user-attachments/assets/77e568fa-5c34-4bda-ba79-6048828fe9fa)
+![image](https://github.com/user-attachments/assets/3eb20a1d-c23f-4711-95d0-411b06d0775d)
 
 [bar/main] - alternative modules - fastfetch showcase
-![image](https://github.com/user-attachments/assets/9a31d038-b72f-4e56-8030-1c68c232be72)
+![image](https://github.com/user-attachments/assets/4ba0cb5b-d69c-4e0b-8d9f-6ddeb66ddf97)
 
 #### Disclaimer
 1. I'm new to linux and ricing, a lot of things are propably missing
