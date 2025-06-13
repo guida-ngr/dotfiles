@@ -8,10 +8,10 @@
 ![image](https://github.com/user-attachments/assets/6f47b779-5628-4790-8eee-8d5076c3f3f8)
 
 #### Disclaimer
-I'm new to linux and ricing, a lot of things are propably missing
-Picom are almost by default
-Polybar inspired (but intirely made by myself) by: https://www.reddit.com/r/unixporn/comments/10dyw2l/awesomewm_i_3_awesome/
-Fastfetch stealed from: https://github.com/xerolinux/xero-layan-git/tree/main
+1. I'm new to linux and ricing, a lot of things are propably missing
+2. Picom are almost by default
+3. Polybar inspired (but intirely made by myself) by: https://www.reddit.com/r/unixporn/comments/10dyw2l/awesomewm_i_3_awesome/
+4. Fastfetch stealed from: https://github.com/xerolinux/xero-layan-git/tree/main
 
 #### Polybar Issues
 [module/weather]
