@@ -22,3 +22,9 @@ essencial packages: "jq" and "bc"
 my config is weird, change it
 
 lauch.sh is missing
+
+#### .bashrc nitrogen function
+![image](https://github.com/user-attachments/assets/10744c4e-1b85-4e04-bfda-a85bd3986b12)
+You can erase if you don't want. It makes easy set nitrogen wallpaper by terminal:
+`wp wallpaper-name`
+no need for .x extentions (.jpeg .jpg .png)
