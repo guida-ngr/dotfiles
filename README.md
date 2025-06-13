@@ -15,16 +15,16 @@
 
 #### Polybar Issues
 [module/weather] < br / >
-how use: https://github.com/GuidoFe/weather-polybar-plugin/tree/main < br / >
-essencial packages: "jq" and "bc" < br / >
+how use: https://github.com/GuidoFe/weather-polybar-plugin/tree/main <br/>
+essencial packages: "jq" and "bc" <br/>
 
-[module/wifi] < br / >
-my config is weird, change it < br / >
+[module/wifi] <br/>
+my config is weird, change it <br/>
 
 lauch.sh is missing
 
 #### .bashrc nitrogen function
-![image](https://github.com/user-attachments/assets/10744c4e-1b85-4e04-bfda-a85bd3986b12) < br / >
-You can erase if you don't want. It makes easy set nitrogen wallpaper by terminal: < br / >
-`wp wallpaper-name` < br / >
-no need for .x extentions (.jpeg .jpg .png) < br / >
+![image](https://github.com/user-attachments/assets/10744c4e-1b85-4e04-bfda-a85bd3986b12) <br/>
+You can erase if you don't want. It makes easy set nitrogen wallpaper by terminal: <br/>
+`wp wallpaper-name` <br/>
+no need for .x extentions (.jpeg .jpg .png) <br/>
