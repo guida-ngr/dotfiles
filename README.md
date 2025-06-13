@@ -12,7 +12,7 @@
 ![image](https://github.com/user-attachments/assets/3eb20a1d-c23f-4711-95d0-411b06d0775d)
 
 [bar/main] - alternative modules - fastfetch showcase
-![image](https://github.com/user-attachments/assets/4ba0cb5b-d69c-4e0b-8d9f-6ddeb66ddf97)
+![image](https://github.com/user-attachments/assets/99f0d31d-f3b6-4898-a830-095bd8df8327)
 
 #### Disclaimer
 1. I'm new to linux and ricing, a lot of things are propably missing
