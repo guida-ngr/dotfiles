@@ -1,15 +1,16 @@
 #### Images
-[bar/main]
-![image](https://github.com/user-attachments/assets/51d2c497-a7c8-450e-9aca-b044dd32a2c1)
+[bar/main] - alternative modules - with |
+![image](https://github.com/user-attachments/assets/3eb20a1d-c23f-4711-95d0-411b06d0775d)
 
 [bar/main] - alternative modules
+![image](https://github.com/user-attachments/assets/51d2c497-a7c8-450e-9aca-b044dd32a2c1)
+
+[bar/main]
 ![image](https://github.com/user-attachments/assets/810a3aa2-db03-442c-a42a-8e8b12570c7a)
 
 [bar/main] - with |
 ![image](https://github.com/user-attachments/assets/ea5695c6-b0f4-4756-b635-d2ddb44708ba)
 
-[bar/main] - alternative modules - with |
-![image](https://github.com/user-attachments/assets/3eb20a1d-c23f-4711-95d0-411b06d0775d)
 
 [bar/main] - alternative modules - fastfetch showcase
 ![image](https://github.com/user-attachments/assets/99f0d31d-f3b6-4898-a830-095bd8df8327)
