@@ -1,13 +1,16 @@
 #### Images
-[bar/main] - alternative modules
-![image](https://github.com/user-attachments/assets/a7649086-8e00-4f03-aa23-47a6431dda44)
-![image](https://github.com/user-attachments/assets/75e9926f-11a2-425b-9603-dd39bb4643f6)
-
 [bar/main]
-![image](https://github.com/user-attachments/assets/6f47b779-5628-4790-8eee-8d5076c3f3f8)
+![image](https://github.com/user-attachments/assets/99586f19-6504-4540-8729-ac18b496b015)
+
+[bar/main] - alternative modules
+![image](https://github.com/user-attachments/assets/9bd8e51e-84b5-4795-b9e4-b5c764286036)
+
+[bar/main] - with |
+![image](https://github.com/user-attachments/assets/a478779f-be21-430b-8a10-7b7ac863a458)
 
 [bar/main] - alternative modules - with |
-![image](https://github.com/user-attachments/assets/70938e61-4d3c-4812-a90a-1355fd709787)
+d2![image](https://github.com/user-attachments/assets/77e568fa-5c34-4bda-ba79-6048828fe9fa)
+
 
 #### Disclaimer
 1. I'm new to linux and ricing, a lot of things are propably missing
