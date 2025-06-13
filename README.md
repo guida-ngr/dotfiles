@@ -13,8 +13,8 @@
 3. Polybar inspired (but intirely made by myself) by: https://www.reddit.com/r/unixporn/comments/10dyw2l/awesomewm_i_3_awesome/
 4. Fastfetch stealed from: https://github.com/xerolinux/xero-layan-git/tree/main
 
-#### Polybar Issues
-[module/weather] < br / >
+#### Polybar Stuff
+[module/weather]
 how use: https://github.com/GuidoFe/weather-polybar-plugin/tree/main <br/>
 essencial packages: "jq" and "bc" <br/>
 you CAN'T edit this module itens by polybar configs, for it you have to go in weather.sh (you can just use mine) <br/>
