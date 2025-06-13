@@ -24,7 +24,7 @@ my config is weird, change it <br/>
 
 #### .bashrc functions
 ##### wp
-![image](https://github.com/guida-ngr/dotfiles/blob/main/demo/pcolor-demo.gif) <br/>
+![alt text](https://github.com/guida-ngr/dotfiles/blob/main/demo/pcolor-demo.gif) <br/>
 Easy nitrogen wallpaper set by terminal no need for .x extentions (.jpeg .jpg .png) <br/>
 ##### pcolor | color-you-decided
 <br/>
