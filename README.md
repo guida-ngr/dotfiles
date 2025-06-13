@@ -7,6 +7,11 @@
 ![image](https://github.com/user-attachments/assets/04d7f731-b6c5-4a3c-ab60-69c922a8a7a0)
 ![image](https://github.com/user-attachments/assets/6f47b779-5628-4790-8eee-8d5076c3f3f8)
 
+
+
+https://github.com/user-attachments/assets/e9a8897c-cbf6-491b-96e2-54f3d40d367a
+
+
 #### Disclaimer
 1. I'm new to linux and ricing, a lot of things are propably missing
 2. Picom are almost by default
@@ -29,5 +34,5 @@ my config is weird, change it <br/>
 
 Easy nitrogen wallpaper set by terminal no need for .x extentions (.jpeg .jpg .png) <br/>
 ##### pcolo
-https://github.com/user-attachments/assets/0c791642-64fa-4c16-9388-af82ef37be28
+![a](https://github.com/user-attachments/assets/0c791642-64fa-4c16-9388-af82ef37be28)
 Easy polybar color change, you can especify HEX-CODE or your preset colors in ~/.bashrc
