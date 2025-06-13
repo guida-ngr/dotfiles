@@ -1,11 +1,11 @@
 #### Images
-[bar/main] - old - alternative modules
+[bar/main] - alternative modules
 ![image](https://github.com/user-attachments/assets/a7649086-8e00-4f03-aa23-47a6431dda44)
 
-[bar/main] - old
+[bar/main]
 ![image](https://github.com/user-attachments/assets/6f47b779-5628-4790-8eee-8d5076c3f3f8)
 
-[bar/main] - now - alternative modules
+[bar/main] - alternative modules - with |
 ![image](https://github.com/user-attachments/assets/70938e61-4d3c-4812-a90a-1355fd709787)
 
 #### Disclaimer
