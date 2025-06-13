@@ -1,6 +1,6 @@
 #### Images
 [bar/main]
-![image](https://github.com/user-attachments/assets/ab41efb4-024a-4577-ba0f-1da1dd3b9506)
+![image](https://github.com/user-attachments/assets/51d2c497-a7c8-450e-9aca-b044dd32a2c1)
 
 [bar/main] - alternative modules
 ![image](https://github.com/user-attachments/assets/df7d447b-b2fe-4964-8447-6752277ad9c4)
