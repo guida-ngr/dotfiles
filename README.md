@@ -34,5 +34,6 @@ Easy nitrogen wallpaper set by terminal no need for .x extentions (.jpeg .jpg .p
 
 https://github.com/user-attachments/assets/43b74644-e9e4-4e24-9958-3f12d35bb47a
 
-
 Easy polybar color change, you can especify HEX-CODE or your preset colors in ~/.bashrc<
+#### A little show
+https://github.com/user-attachments/assets/f520736f-18dc-45f0-a2a6-a30f42a6c609
