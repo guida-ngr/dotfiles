@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/51d2c497-a7c8-450e-9aca-b044dd32a2c1)
 
 [bar/main] - alternative modules
-![image](https://github.com/user-attachments/assets/df7d447b-b2fe-4964-8447-6752277ad9c4)
+![image](https://github.com/user-attachments/assets/810a3aa2-db03-442c-a42a-8e8b12570c7a)
 
 [bar/main] - with |
 ![image](https://github.com/user-attachments/assets/a478779f-be21-430b-8a10-7b7ac863a458)
