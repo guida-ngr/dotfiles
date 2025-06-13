@@ -83,7 +83,7 @@ bindsym $mod+i exec --no-startup-id kitty -e nvim ~/.config/i3/config
 bindsym $mod+w exec nitrogen
 bindsym $mod+f exec firefox
 bindsym $mod+d exec --no-startup-id dmenu_run -i -b
-bindsym $mod+Shift+s exec flameshot gui --clipboard
+bindsym $mod+Shift+s exec flameshot gui
 
 #! sla
 # se pactl to adjust volume in PulseAudio.
