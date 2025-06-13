@@ -24,10 +24,12 @@ my config is weird, change it <br/>
 
 #### .bashrc functions
 - **wp**
+
 https://github.com/user-attachments/assets/aaa64306-4115-4749-a29c-a71c948b3b31
 
 Easy nitrogen wallpaper set by terminal no need for .x extentions (.jpeg .jpg .png)
 - **pcolor**
+
 https://github.com/user-attachments/assets/43b74644-e9e4-4e24-9958-3f12d35bb47a
 
 
