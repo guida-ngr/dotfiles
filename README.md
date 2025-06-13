@@ -27,5 +27,5 @@ my config is weird, change it <br/>
 
 Easy nitrogen wallpaper set by terminal no need for .x extentions (.jpeg .jpg .png)
 ##### pcolo
-https://github.com/user-attachments/assets/f82ef999-f1f5-4ecd-87bf-a99181fa22fe
+https://github.com/user-attachments/assets/f82ef999-f1f5-4ecd-87bf-a99181fa22fe <br/>
 Easy polybar color change, you can especify HEX-CODE or your preset colors in ~/.bashrc
