@@ -14,18 +14,21 @@
 4. Fastfetch stealed from: https://github.com/xerolinux/xero-layan-git/tree/main
 
 #### Polybar Stuff
-[module/weather] <br/>
+[module/weather]
 how to use: https://github.com/GuidoFe/weather-polybar-plugin/tree/main <br/>
 essencial packages: "jq" and "bc" <br/>
 you CAN'T edit this module itens by polybar configs, for it you have to go in weather.sh (you can just use mine) <br/>
 
-[module/wifi] <br/>
+[module/wifi]
 my config is weird, change it <br/>
 
 #### .bashrc functions
-##### wp
+- **wp**
+https://github.com/user-attachments/assets/aaa64306-4115-4749-a29c-a71c948b3b31
 
 Easy nitrogen wallpaper set by terminal no need for .x extentions (.jpeg .jpg .png)
-##### pcolo
-https://github.com/user-attachments/assets/f82ef999-f1f5-4ecd-87bf-a99181fa22fe <br/>
-Easy polybar color change, you can especify HEX-CODE or your preset colors in ~/.bashrc
+- **pcolor**
+https://github.com/user-attachments/assets/43b74644-e9e4-4e24-9958-3f12d35bb47a
+
+
+Easy polybar color change, you can especify HEX-CODE or your preset colors in ~/.bashrc<
