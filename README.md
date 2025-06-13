@@ -24,8 +24,10 @@ my config is weird, change it <br/>
 
 #### .bashrc functions
 ##### wp
-g <br/>
+
+
+
 Easy nitrogen wallpaper set by terminal no need for .x extentions (.jpeg .jpg .png) <br/>
-##### pcolor | color-you-decided
-![pcolor](pcolor.mp4)
-Easy polybar color change, you can especify HEX-CODE, or use your preset colors<br/>
+##### pcolo
+https://github.com/user-attachments/assets/0c791642-64fa-4c16-9388-af82ef37be28
+Easy polybar color change, you can especify HEX-CODE or your preset colors in ~/.bashrc
