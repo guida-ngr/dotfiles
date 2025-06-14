@@ -1,0 +1,19 @@
+#!/bin/bash
+
+DEFAULT_GAPS_TOP=39
+DEFAULT_GAPS_INNER=9
+
+i3-msg -t subscribe '["window"]' | while read -r event; do
+    if echo "$event" | grep -q '"change":"fullscreen_mode"'; then
+        is_fullscreen=$(echo "$event" | jq -r '.container.fullscreen_mode')
+        if [ "$is_fullscreen" = "1" ]; then
+            polybar-msg cmd hide
+            i3-msg gaps top set 0
+            i3-msg gaps inner set 0
+        else
+            polybar-msg cmd show
+            i3-msg gaps top set "$DEFAULT_GAPS_TOP"
+            i3-msg gaps inner set "$DEFAULT_GAPS_INNER"
+        fi
+    fi
+done
