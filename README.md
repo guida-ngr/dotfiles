@@ -1,20 +1,22 @@
 #### Images
-[bar/main] - alternative modules - with |
+[bar/main] - using module V2 and |
 ![image](https://github.com/user-attachments/assets/3eb20a1d-c23f-4711-95d0-411b06d0775d)
 
-[bar/main] - alternative modules
+[bar/main] - using module V2
 ![image](https://github.com/user-attachments/assets/51d2c497-a7c8-450e-9aca-b044dd32a2c1)
 
-[bar/main]
+[bar/main] - using module V1 (default)
 ![image](https://github.com/user-attachments/assets/810a3aa2-db03-442c-a42a-8e8b12570c7a)
 
-[bar/main] - with |
+[bar/main] - using module V1 (default) with |
 ![image](https://github.com/user-attachments/assets/ea5695c6-b0f4-4756-b635-d2ddb44708ba)
 
-
-[bar/main] - alternative modules - fastfetch showcase
+[bar/main] - fastfetch showcase (modules V2)
 ![image](https://github.com/user-attachments/assets/99f0d31d-f3b6-4898-a830-095bd8df8327)
-
+#### Modules and |
+For facilities you have 2 different module organizations if you don't want to make your own.
+About the |. If you want | separators it's simple, uncomment all |
+WARN: dont duplicate commands during uncomment
 #### Disclaimer
 1. I'm new to linux and ricing, a lot of things are propably missing
 2. Picom are almost by default
