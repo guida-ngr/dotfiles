@@ -14,8 +14,8 @@
 [bar/main] - fastfetch showcase (modules V2)
 ![image](https://github.com/user-attachments/assets/99f0d31d-f3b6-4898-a830-095bd8df8327)
 #### Modules and |
-For facilities you have 2 different module organizations if you don't want to make your own.
-About the |. If you want | separators it's simple, uncomment all |
+You have 2 different module organizations (V1, V2)if you don't want to make your own. <br/>
+If you want | separators then uncomment all | <br/>
 WARN: dont duplicate commands during uncomment
 #### Disclaimer
 1. I'm new to linux and ricing, a lot of things are propably missing
