@@ -67,10 +67,11 @@ floating_modifier $mod
 # drag & drop tiling window
 tiling_drag modifier titlebar
 # no tiling
-for_window [instance="kitty-floating"] floating enable, resize set 600 400
+for_window [instance="kitty-floating"] floating enable, resize set 600 400, move to position center
 for_window [class="Nitrogen"] floating enable, resize set 600 400, move to position center
 for_window [class="dragon"] floating enable, resize set 810 540, move to position center
 for_window [class="pavucontrol"] floating enable, resize set 300 250, move position 1522 43
+for_window [class="Blueman-manager"] floating enable, resize set 350 250, move position 1382 43
 # borders
 default_border none
 
@@ -84,7 +85,7 @@ bindsym $mod+r exec --no-startup-id kitty -e nvim ~/.config
 bindsym $mod+F1 exec --no-startup-id kitty -e nvim ~/.config/i3/config
 bindsym $mod+F2 exec --no-startup-id kitty -e nvim ~/.config/picom/picom.conf
 bindsym $mod+F3 exec --no-startup-id kitty -e nvim ~/.config/polybar/config.ini
-bindsym $mod+F4 exec --no-startup-id kitty -e nvim ~/.config/polybar/colors.ini
+bindsym $mod+F4 exec --no-startup-id kitty -e nvim ~/.bashrc
 bindsym $mod+w exec nitrogen
 bindsym $mod+f exec firefox
 bindsym $mod+d exec dolphin
