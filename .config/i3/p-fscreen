@@ -1,19 +1,16 @@
 #!/bin/bash
 
-DEFAULT_GAPS_TOP=39
-DEFAULT_GAPS_INNER=9
+MONITOR_NAME="HDMI-2"
+POLYBAR_INSTANCE="main"
 
-i3-msg -t subscribe '["window"]' | while read -r event; do
-    if echo "$event" | grep -q '"change":"fullscreen_mode"'; then
-        is_fullscreen=$(echo "$event" | jq -r '.container.fullscreen_mode')
-        if [ "$is_fullscreen" = "1" ]; then
-            polybar-msg cmd hide
-            i3-msg gaps top set 0
-            i3-msg gaps inner set 0
-        else
-            polybar-msg cmd show
-            i3-msg gaps top set "$DEFAULT_GAPS_TOP"
-            i3-msg gaps inner set "$DEFAULT_GAPS_INNER"
-        fi
+while true; do
+    fullscreen=$(xprop -root _NET_ACTIVE_WINDOW | cut -d ' ' -f5 | xargs -I{} xprop -id {} _NET_WM_STATE | grep _NET_WM_STATE_FULLSCREEN)
+
+    if [[ -n "$fullscreen" ]]; then
+        polybar-msg -p $(pgrep -f "polybar $POLYBAR_INSTANCE") cmd hide
+    else
+        polybar-msg -p $(pgrep -f "polybar $POLYBAR_INSTANCE") cmd show
     fi
+
+    sleep 1
 done
