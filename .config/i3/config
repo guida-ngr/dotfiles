@@ -21,8 +21,8 @@ set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
-set $ws5 "6"
-set $ws5 "7"
+set $ws6 "6"
+set $ws7 "7"
 # switch worksp
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
@@ -76,9 +76,10 @@ tiling_drag modifier titlebar
 # no tiling
 for_window [instance="kitty-floating"] floating enable, resize set 600 400, move to position center
 for_window [class="Nitrogen"] floating enable, resize set 600 400, move to position center
-for_window [class="pavucontrol"] floating enable, resize set 300 250, move position 1522 43
-for_window [class="Blueman-manager"] floating enable, resize set 350 250, move position 1382 43
-for_window [class="mpv"] floating enable, resize set 350 250, move position 1382 43
+for_window [class="mpv"] floating enable, resize set 600 400, move to position center
+for_window [class="dragon"] floating enable, resize set 810 540, move to position center
+for_window [class="pavucontrol"] floating enable, resize set 450 250, move position 1460 49
+for_window [class="Blueman-manager"] floating enable, resize set 450 250, move position 1374 49
 # borders
 default_border none
 
