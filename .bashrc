@@ -12,13 +12,14 @@ alias ins='sudo pacman -S'
 alias rem='sudo pacman -R'
 alias upd='sudo pacman -Syu'
 alias sys='sudo systemctl'
+alias wifi='sudo dhcpcd enp1s0f0u7'
 
 # functions
 wp() {
     local file=""
     for ext in png jpeg jpg; do
-        if [[ -f "$HOME/Downloads/$1.$ext" ]]; then
-            file="$HOME/Downloads/$1.$ext"
+        if [[ -f "$HOME/.wp/$1.$ext" ]]; then
+            file="$HOME/.wp/$1.$ext"
             break
         fi
     done
@@ -26,7 +27,7 @@ wp() {
     if [[ -n $file ]]; then
         nitrogen --set-auto "$file"
     else
-        echo "[ERROR]: $1.(png|jpeg|jpg) not found in ~/Downloads"
+        echo "[ERROR]: $1.(png|jpeg|jpg) not found in ~/.wp"
     fi
 }
 
@@ -50,7 +51,7 @@ pcolor() {
         return 1
     fi
 
-    export ACCENT_COLOR="$HEX_COLOR"
+    export acc_color="$HEX_COLOR"
 
     killall -q polybar
     while pgrep -u "$(id -u)" -x polybar >/dev/null; do sleep 1; done
@@ -63,3 +64,5 @@ alias d2='pcolor "#ded1ec"'
 alias blue='pcolor "#a9ddea"'
 alias rs='pcolor "#f99aed"'
 alias red='pcolor "#f66b6b"'
+alias nasa='pcolor "#e33071"'
+alias nasa2='pcolor "#e35b8d"'
