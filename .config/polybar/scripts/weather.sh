@@ -22,6 +22,8 @@ LANG="en"
 UNITS="metric"
 
 # Color Settings ______________________________________________________________
+ACCENT="${acc_color:-#e6ecd1}"
+COLOR_TEXT="$ACCENT"
 
 COLOR_CLOUD="#d4d4d4"
 COLOR_THUNDER="##f1aee0"
@@ -43,9 +45,6 @@ COLOR_WIND="#73cef4"
 COLOR_TORNADO="#d3b987"
 COLOR_SNOW="#FFFFFF"
 
-
-# Leave "" if you want the default polybar color
-COLOR_TEXT="#e6ecd1"
 # Polybar settings ____________________________________________________________
 
 # Font for the weather icons
