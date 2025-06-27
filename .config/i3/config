@@ -15,6 +15,7 @@ exec --no-startup-id nitrogen --restore
 # gaps
 gaps top 39
 gaps inner 9
+
 # worksp
 set $ws1 "1"
 set $ws2 "2"
@@ -39,7 +40,9 @@ bindsym $mod+Shift+4 move container to workspace number $ws4
 bindsym $mod+Shift+5 move container to workspace number $ws5
 bindsym $mod+Shift+6 move container to workspace number $ws6
 bindsym $mod+Shift+7 move container to workspace number $ws7
+
 # resize window
+bindsym $mod+Shift+z mode "resize"
 mode "resize" {
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
@@ -48,7 +51,6 @@ mode "resize" {
         bindsym Return mode "default"
         bindsym $mod+Shift+z mode "default"
 }
-bindsym $mod+Shift+z mode "resize"
 # focus window
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
@@ -59,16 +61,16 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
-# enter fullscreen mode for the focused container
-bindsym $mod+F11 fullscreen toggle
-# toggle tiling / floating
-bindsym $mod+space floating toggle
-# change focus between tiling / floating windows
-bindsym $mod+Shift+space focus mode_toggle
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+z layout stacking
 bindsym $mod+x layout tabbed
 bindsym $mod+c layout toggle split
+
+# enter fullscreen mode for the focused container
+bindsym $mod+F11 fullscreen toggle
+# float
+bindsym $mod+space floating toggle
+bindsym $mod+Shift+space focus mode_toggle
 # drag window
 floating_modifier $mod
 # drag & drop tiling window
@@ -83,22 +85,24 @@ for_window [class="Blueman-manager"] floating enable, resize set 450 250, move p
 # borders
 default_border none
 
-#? functions
+#? keybinds
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 bindsym $mod+q kill
 bindsym $mod+Return exec kitty --class "kitty-floating"
+
 bindsym $mod+r exec --no-startup-id kitty -e nvim ~/.config
 bindsym $mod+F1 exec --no-startup-id kitty -e nvim ~/.config/i3/config
 bindsym $mod+F2 exec --no-startup-id kitty -e nvim ~/.config/picom/picom.conf
 bindsym $mod+F3 exec --no-startup-id kitty -e nvim ~/.config/polybar/config.ini
 bindsym $mod+F4 exec --no-startup-id kitty -e nvim ~/.bashrc
-bindsym $mod+w exec nitrogen
+
+bindsym $mod+s exec --no-startup-id dmenu_run -i -b
 bindsym $mod+f exec firefox
+bindsym $mod+w exec nitrogen
 bindsym $mod+d exec --no-startup-id kitty -e ranger
 bindsym $mod+p exec peek
-bindsym $mod+s exec --no-startup-id dmenu_run -i -b
 bindsym $mod+Shift+s exec flameshot gui
 bindsym $mod+o exec obsidian
 
