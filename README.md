@@ -29,14 +29,14 @@ WARN: dont duplicate commands during uncomment
 
 #### Polybar Stuff
 [module/weather]<br/>
-check the [official repo](https://github.com/GuidoFe/weather-polybar-plugin/tree/main) to run this module <br/>
-required packages: "jq" and "bc" <br/>
-you CAN'T edit this module itens by polybar configs, for it you have to go in weather.sh (you can just use mine) <br/>
-[module/spotify]
-check the [official repo](https://github.com/PrayagS/polybar-spotify) to run this module <br/>
-required package: "playerctl" <br/>
-[module/wifi]
-my config is weird, change it <br/>
+check the [official repo](https://github.com/GuidoFe/weather-polybar-plugin/tree/main) to run this module<br/>
+required packages: "jq" and "bc"<br/>
+you CAN'T edit this module itens by polybar configs, for it you have to go in weather.sh (you can just use mine)<br/>
+[module/spotify]<br/>
+check the [official repo](https://github.com/PrayagS/polybar-spotify) to run this module<br/>
+required package: "playerctl"<br/>
+[module/wifi]<br/>
+my config is weird, change it<br/>
 
 #### .bashrc functions
 - **wp**
