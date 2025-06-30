@@ -18,14 +18,12 @@ check the posts!<br/>
 [bar/main] - fastfetch showcase (modules V2)
 ![image](https://github.com/user-attachments/assets/99f0d31d-f3b6-4898-a830-095bd8df8327)
 #### Modules and |
-You have 2 different module organizations (V1, V2)if you don't want to make your own. <br/>
-If you want | separators then uncomment all | <br/>
-WARN: dont duplicate commands during uncomment
+You have 2 different module organizations (V1, V2).<br/>
+If you want | separators then uncomment all |<br/>
 #### Disclaimer
 1. I'm new to linux and ricing, a lot of things are propably missing
-2. Picom are almost by default
-3. Polybar inspired (but intirely made by myself) by: [this post](https://www.reddit.com/r/unixporn/comments/10dyw2l/awesomewm_i_3_awesome/)
-4. Fastfetch stealed from: [xerolinux](https://github.com/xerolinux/xero-layan-git/tree/main)
+2. Polybar inspired (but intirely made by myself) by: [this post](https://www.reddit.com/r/unixporn/comments/10dyw2l/awesomewm_i_3_awesome/)
+3. Fastfetch stealed from: [xerolinux](https://github.com/xerolinux/xero-layan-git/tree/main)
 
 #### Polybar Stuff
 [module/weather]<br/>
