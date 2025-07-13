@@ -41,6 +41,8 @@ bindsym $mod+Shift+7 move container to workspace number $ws7
 # gaps
 gaps top 39
 gaps inner 9
+# border
+default_border none
 # resize window
 bindsym $mod+Shift+z mode "resize"
 mode "resize" {
@@ -61,11 +63,10 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
-# change container layout (stacked, tabbed, toggle split)
+# change container layout (stacked, tabbed, split)
 bindsym $mod+z layout stacking
 bindsym $mod+x layout tabbed
 bindsym $mod+c layout toggle split
-
 # enter fullscreen mode for the focused container
 bindsym $mod+F11 fullscreen toggle
 # float
@@ -83,8 +84,6 @@ for_window [class="mpv"] floating enable, resize set 600 400, move to position c
 for_window [class="dragon"] floating enable, resize set 810 540, move to position center
 for_window [class="pavucontrol"] floating enable, resize set 450 250, move position 1460 49
 for_window [class="Blueman-manager"] floating enable, resize set 450 250, move position 1374 49
-# borders
-default_border none
 
 #  keybinds  #
 bindsym $mod+Shift+c reload
